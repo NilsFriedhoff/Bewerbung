@@ -1,0 +1,49 @@
+
+
+.nav > .dropdown:hover >  a{
+	background-color:blue !important;
+	color:white !important;
+}
+
+.nav > .dropdown.backtoblack:hover >  a {
+	background-color:blue;
+}
+
+.lb:hover a{
+	background-color:lightblue !important;
+}
+
+.active:hover a{
+	background-color:blue !important;
+	color:white !important;
+}
+.col-xs-2{
+	margin: 2% 5%;
+	padding: 0% 4.5%;
+	//background-color:white;
+}
+
+body{
+	background-color: #DFDCDC;
+}
+.col-xs-8{
+	margin: 2% 2%;
+	padding: 2% 2%;
+	//background-color:white;
+}
+
+#vorstellung{
+	background-color:white;
+}
+
+#lebenslauf{
+	margin: 5% 0%;
+	background-color: white;
+}
+#jobs{
+	margin: 5% 0%;
+	background-color: white;
+}
+h1{
+	padding:0% 35%;
+}
