@@ -15,10 +15,7 @@
       <link href="styles/font-awesome.min.css" rel="stylesheet">
       <link href="styles/prettyPhoto.css" rel="stylesheet">
       <link href="styles/main.css" rel="stylesheet">
-      <!--[if lt IE 9]>
-    <script src="scripts/html5shiv.js"></script>
-    <script src="scripts/respond.min.js"></script>
-      <![endif]-->
+
       <link rel="shortcut icon" href="images/ico/favicon.ico">
       <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
       <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -28,16 +25,16 @@
   </head>
   <body>
   {{body}}
-    <!-- build:js({app,.tmp}) /scripts/script.js -->
+    <!-- build:js({app,.tmp}) scripts/script.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
     {{>scripts}}
     <!-- endbuild -->
-    <!-- build:css({app,.tmp}) /styles/main.css -->
+    <!-- build:css({app,.tmp}) styles/main.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <!-- endbower -->
     {{>styles}}
     <!-- endbuild -->
